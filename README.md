@@ -1,5 +1,5 @@
 # मतदान (Matdaan-dapp)
-This is a decentralized voting app created using blockchain, solidity, truffle and react.js.
+This is a decentralized voting app created using blockchain, solidity, web3.js, truffle and react.js.
 
 # Dependencies
 Install these prerequisites to follow along.
