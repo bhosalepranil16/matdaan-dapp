@@ -31,9 +31,9 @@ contract Election {
 
     constructor() public {
         admin = msg.sender;
-        timePeriod[0] = block.timestamp + 2 minutes;
-        timePeriod[1] = block.timestamp + 4 minutes;
-        timePeriod[2] = block.timestamp + 6 minutes;
+        timePeriod[0] = block.timestamp + 10 minutes;
+        timePeriod[1] = block.timestamp + 12 minutes;
+        timePeriod[2] = block.timestamp + 14 minutes;
     }
 
     function registerCandidates(string memory _name,string memory _symbol) public {
